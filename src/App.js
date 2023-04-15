@@ -1,25 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import RoomsList from './components/RoomsList';
+import Room from './components/Room';
 
-function App() {
+const rooms = [
+  {
+    id: 1,
+    name: 'Room 1',
+    timeSlots: [
+      { time: '9:00 - 9:30', booked: false },
+      { time: '9:30 - 10:00', booked: true },
+      // more time slots
+    ],
+  },
+  {
+    id: 2,
+    name: 'Room 2',
+    timeSlots: [
+      { time: '9:00 - 9:30', booked: false },
+      { time: '9:30 - 10:00', booked: false },
+      // more time slots
+    ],
+  },
+  // more rooms
+];
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <Routes>
+          <Route exact path="/" render={() => <RoomsList rooms={rooms} />} />
+          <Route
+            path="/room/:roomId"
+            render={(routeProps) => <Room {...routeProps} rooms={rooms} />}
+          />
+        </Routes>
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;
+

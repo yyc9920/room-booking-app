@@ -1,0 +1,32 @@
+@startuml Architecture
+
+title Screen Golf Room Booking App Architecture
+
+!define DATABASE_URL https://github.com/rabelenda/cicon-plantuml-sprites/raw/main/database.png
+!define CLOUD_URL https://github.com/rabelenda/cicon-plantuml-sprites/raw/main/cloud.png
+!define API_URL https://github.com/rabelenda/cicon-plantuml-sprites/raw/main/api.png
+!define UI_URL https://github.com/rabelenda/cicon-plantuml-sprites/raw/main/ui.png
+!define AUTH_URL https://github.com/rabelenda/cicon-plantuml-sprites/raw/main/auth.png
+
+actor User
+
+User -> UI : Interacts with
+UI -> API : Sends requests
+API -> Authentication : Verifies identity
+API -> Database : Retrieves and stores data
+API -> Backend : Runs backend logic
+API -> "Web Server" : Handles requests
+Backend -> "Job Queue" : Queues jobs
+Backend -> "Job Worker" : Processes jobs
+Backend -> "App notification service" : Sends notifications
+
+note left of Backend : Backend
+note left of API : API Layer
+note left of Authentication : Authentication
+note left of Database : Database
+note left of "Job Queue" : Job Queue\nManages a list of tasks or jobs that need to be processed.\nEnsures jobs are processed in the correct order and no jobs are lost or duplicated.
+note left of "Job Worker" : Job Worker\nProcesses the tasks or jobs in the Job Queue.\nChecks the Job Queue for new jobs to process and runs necessary logic to complete each job.
+note left of "Web Server" : Web Server
+note left of "App notification service" : App notification service
+
+@enduml
