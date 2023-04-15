@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Screen Golf Room Booking App
+This is a web application for booking golf rooms. It allows users to view the availability of rooms and book them for specific dates and times. The app is built using a frontend framework (React) and a backend API built with Node.js.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Getting Started
+To run this app locally, follow these steps:
 
-## Available Scripts
+1. Clone this repository to your local machine.
+2. Install the dependencies using `npm install`.
+3. Start the development server using `npm start`.
 
-In the project directory, you can run:
+## Features
+The Screen Golf Room Booking App has the following features:
 
-### `npm start`
+- Login and signup screens with user authentication and authorization.
+- Calendar view for daily, weekly, and monthly bookings.
+- Room availability view for admins.
+- Room booking page with time slots and form submission.
+- Backend API with endpoints for retrieving and updating room data.
+- Job queue and worker for processing background tasks.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
+The following technologies were used to build this app:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React
+- Node.js
+- Express
+- MongoDB
 
-### `npm test`
+##  Future Improvements
+Here are some potential improvements for the Screen Golf Room Booking App:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Add search and filter functionality to the calendar and room availability views.
+- Implement real-time updates for room availability and bookings.
+- Improve the styling and layout of the UI.
+- Add support for multiple languages.
+- Implement a payment system for room bookings.
 
-### `npm run build`
+## Contributing
+We welcome contributions to this project! To contribute, please follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Fork this repository.
+- Create a new branch for your changes.
+- Make your changes and commit them with a clear commit message.
+- Push your changes to your forked repository.
+- Submit a pull request to this repository.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
