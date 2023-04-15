@@ -1,6 +1,9 @@
 # Screen Golf Room Booking App
 This is a web application for booking golf rooms. It allows users to view the availability of rooms and book them for specific dates and times. The app is built using a frontend framework (React) and a backend API built with Node.js.
 
+*All documentation for this project was written by Chat gpt.*
+*Here's the [link](https://sharegpt.com/c/6jPLCaG) to the conversation.*
+
 ## Getting Started
 To run this app locally, follow these steps:
 
