@@ -2,12 +2,6 @@
 
 title Screen Golf Room Booking App Architecture
 
-!define DATABASE_URL https://github.com/rabelenda/cicon-plantuml-sprites/raw/main/database.png
-!define CLOUD_URL https://github.com/rabelenda/cicon-plantuml-sprites/raw/main/cloud.png
-!define API_URL https://github.com/rabelenda/cicon-plantuml-sprites/raw/main/api.png
-!define UI_URL https://github.com/rabelenda/cicon-plantuml-sprites/raw/main/ui.png
-!define AUTH_URL https://github.com/rabelenda/cicon-plantuml-sprites/raw/main/auth.png
-
 actor User
 
 User -> UI : Interacts with
