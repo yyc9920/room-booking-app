@@ -1,20 +1,20 @@
 # Todo List
 ## Define project scope and goals:
-- [ ] Write a one-page project proposal that outlines the project's objectives, features, and success criteria.
-- [ ] Create a prioritized list of project requirements and constraints.
-- [ ] Define the target audience for the project and conduct market research to identify their needs and pain points.
+- [x] Write a one-page project proposal that outlines the project's objectives, features, and success criteria.
+- [x] Create a prioritized list of project requirements and constraints.
+- [x] Define the target audience for the project and conduct market research to identify their needs and pain points.
 ## Develop a project plan:
-- [ ] Break down the project into small, manageable tasks and estimate the time required to complete each task.
-- [ ] Create a Gantt chart or project timeline that outlines the project's major milestones and deadlines.
-- [ ] Identify and allocate the necessary resources (e.g., hardware, software, personnel) for the project.
+- [x] Break down the project into small, manageable tasks and estimate the time required to complete each task.
+- [x] Create a Gantt chart or project timeline that outlines the project's major milestones and deadlines.
+- [x] Identify and allocate the necessary resources (e.g., hardware, software, personnel) for the project.
 ## Gather necessary tools and resources:
-- [ ] Research and select the appropriate tools and resources for the project, such as programming languages, frameworks, libraries, and design software.
+- [x] Research and select the appropriate tools and resources for the project, such as programming languages, frameworks, libraries, and design software.
 - [ ] Download and install the necessary software development kits (SDKs) and other tools.
 - [ ] Set up a development environment that includes all the necessary hardware and software components.
 ## Design the user interface:
 - [ ] Create a detailed wireframe or prototype of the user interface, using tools like Sketch or Figma.
 - [ ] Conduct user testing and gather feedback on the design, making adjustments as necessary.
-- [ ] Create a style guide or design system that defines the visual and interaction design patterns for the project.
+- [x] Create a style guide or design system that defines the visual and interaction design patterns for the project.
 ## Start coding:
 - [ ] Write clean, well-documented code that follows best practices and coding standards.
 - [ ] Use version control (e.g., Git) to manage changes and collaborate with others if necessary.
