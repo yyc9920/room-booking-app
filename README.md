@@ -4,6 +4,10 @@ This is a web application for booking golf rooms. It allows users to view the av
 *All documentation for this project was written by Chat gpt.*
 *Here's the [link](https://sharegpt.com/c/6jPLCaG) to the conversation.*
 
+## Application Architecture
+
+![architecture](./docs/Architecture.svg)
+
 ## Getting Started
 To run this app locally, follow these steps:
 
